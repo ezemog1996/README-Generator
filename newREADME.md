@@ -26,13 +26,13 @@ Clone this repository to install.
 
 ### Usage
 
-This application is to help users more quickly complete README's for their projects so that they can dedicate more time to developing. Run it by executing the "node index" command in the terminal while you're in this repository.
+This application is to help users more quickly complete README's for their projects so that they can dedicate more time to developing. Run it by executing the "node index" command in the terminal while in this repository.
 
 ### Contributing
 
-Contributor can debug, improve, or add to this project however they would like.### Tests
+Contributors can debug, improve, or add to this project however they would like.### Tests
 
-While in this repository, in the terminal run the comman "node index" and answer the questions. Once completed, check if they new README is formatted properly
+While in this repository, run the command "node index" in the terminal and answer the questions. Once completed, check if the new README is formatted properly.
 
 ### License
 
