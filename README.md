@@ -1,4 +1,4 @@
-# README-Generator https://img.shields.io/badge/license-MIT-green
+# README-Generator ![](https://img.shields.io/badge/license-MIT-green)
 
 Link to App: https://ezemog1996.github.io/README-Generator/
 
