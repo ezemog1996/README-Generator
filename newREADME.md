@@ -1,4 +1,4 @@
-# README-Generator https://img.shields.io/badge/license-MIT-green
+# README-Generator ![](https://img.shields.io/badge/license-MIT-green)
 
 Link to App: https://ezemog1996.github.io/README-Generator/
 
@@ -6,11 +6,11 @@ Link to App: https://ezemog1996.github.io/README-Generator/
 
 [Description](https://github.com/ezemog1996/README-Generator#description)
 
-[Installation Instructions](https://github.com/ezemog1996/README-Generator#installation-instructions)
+[Installation](https://github.com/ezemog1996/README-Generator#installation)
 
-[Usage Information](https://github.com/ezemog1996/README-Generator#usage-information)
+[Usage](https://github.com/ezemog1996/README-Generator#usage)
 
-[Test Instructions](https://github.com/ezemog1996/README-Generator#test-instructions)
+[Tests](https://github.com/ezemog1996/README-Generator#tests)
 
 [License](https://github.com/ezemog1996/README-Generator#license)
 
@@ -18,19 +18,21 @@ Link to App: https://ezemog1996.github.io/README-Generator/
 
 ### Description
 
-This application asked the user quesitons about essential components of an effective README.md so that it can format it for the user.
+This application uses the inquirer package in node.js to ask the user questions about essential components of an effective README.md so that it can format the README for the user.
 
-### Installation Instructions
+### Installation
 
 Clone this repository to install.
 
-### Usage Information
+### Usage
 
-This application is to help users more quickly complete README's for their projects so that they can focus more of their time developing. Run it by executing the "node index" command in the terminal while you're in this repository.
+This application is to help users more quickly complete README's for their projects so that they can dedicate more time to developing. Run it by executing the "node index" command in the terminal while you're in this repository.
 
-### Test Instructions
+### Contributing
 
-While in this repository in the terminal, run the command "node index" and answer the questions. Once completed, check if the new README is formatted properly.
+Contributor can debug, improve, or add to this project however they would like.### Tests
+
+While in this repository, in the terminal run the comman "node index" and answer the questions. Once completed, check if they new README is formatted properly
 
 ### License
 
@@ -55,12 +57,12 @@ While in this repository in the terminal, run the command "node index" and answe
                 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
                 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
                 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-                SOFTWARE..
+                SOFTWARE.
 
-Questions
+### Questions
 
 GitHub Profile: https://github.com/ezemog1996
 
 Email: enrique_g_gomez@hotmail.com 
 
-Contact me through the issues panel on Github or send me an email with any questions about this project.
+Contact me through the issues panel on for this project or send me an email with any questions about this project.
