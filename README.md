@@ -34,6 +34,10 @@ Contributors can debug, improve, or add to this project however they would like.
 
 While in this repository, run the command "node index" in the terminal and answer the questions. Once completed, check if the new README is formatted properly.
 
+### Tests
+
+While in this repository, run the command "node index" and answer the questions. Once completed, check if the new README is formatted properly.
+
 ### License
 
 
