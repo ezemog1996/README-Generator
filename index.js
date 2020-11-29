@@ -130,13 +130,13 @@ inquirer.
                 licenseNotice = licenses[i].notice;
             }
         }
-        fs.writeFile("newREADME.md", `# ${response.title} ${licenseBadge}\n\n`, (err) => {
+        fs.writeFile("newREADME.md", `# ${response.title} ![](${licenseBadge})\n\n`, (err) => {
             err ? console.error(err) : console.log('Added title and license badge!')
         });
         fs.appendFile("newREADME.md", `Link to App: https://${response.github}.github.io/${response.title}/\n\n## Table of Contents\n\n[Description](https://github.com/${response.github}/${response.title}#description)\n\n[Installation Instructions](https://github.com/${response.github}/${response.title}#installation-instructions)\n\n[Usage Information](https://github.com/${response.github}/${response.title}#usage-information)\n\n[Test Instructions](https://github.com/${response.github}/${response.title}#test-instructions)\n\n[License](https://github.com/${response.github}/${response.title}#license)\n\n[Questions](https://github.com/${response.github}/${response.title}#questions)\n\n`, (err) => {
             err ? console.error(err) : console.log('Added a table of contents!')
         });
-        fs.appendFile("newREADME.md", `### Description\n\n${response.description}\n\n### Installation Instructions\n\n${response.installation}\n\n### Usage Information\n\n${response.usage}\n\n### Test Instructions\n\n${response.test}\n\n### License\n\n${licenseNotice}\n\n### Questions\n\nGitHub Profile: https://github.com/${response.github}\n\nEmail: ${response.email} \n\nContact me through the issues panel on Github or send me an email with any questions about this project.`, (err) =>
+        fs.appendFile("newREADME.md", `### Description\n\n${response.description}\n\n### Installation Instructions\n\n${response.installation}\n\n### Usage Information\n\n${response.usage}\n\n### Test Instructions\n\n${response.test}\n\n### License\n\n${licenseNotice}\n\n### Questions\n\nGitHub Profile: https://github.com/${response.github}\n\nEmail: ${response.email} \n\nContact me through the issues panel on for this project or send me an email with any questions about this project.`, (err) =>
             console.log('Added description, installation instructions, usage information, test instructions, license, and questions! All done!')
         );
     });
